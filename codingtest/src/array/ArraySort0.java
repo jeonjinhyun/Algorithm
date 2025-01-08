@@ -12,11 +12,13 @@ public class ArraySort0 {
         for(int i=0;i<n;i++){
             data[i]=scan.nextInt();
         }
-        solution(data);
         System.out.println(Arrays.toString(data));
+        System.out.println(Arrays.toString(solution(data)));
     }
-    public static void solution(int[] intArray){
-        Arrays.sort(intArray);
+    public static int[] solution(int[] intArray){
+        int[] clone = intArray.clone();
+        Arrays.sort(clone);
+        return clone;
     }
 }
 
