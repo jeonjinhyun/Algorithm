@@ -1,9 +1,9 @@
-package array;
+package array.practice;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArraySort0 {
+public class ArraySort {
     public static void main(String[] args) {
         int n;
         Scanner scan = new Scanner(System.in);
